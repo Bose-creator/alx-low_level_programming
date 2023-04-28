@@ -7,7 +7,7 @@
  * main - check the code
  *
  * Return: Always 0.
-*/
+ */
 int main(void)
 {
 	list_t *head;
@@ -19,8 +19,8 @@ int main(void)
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 	{
-	printf("Error\n");
-	return (1);
+		printf("Error\n");
+		return (1);
 	}
 	new->str = strdup("Hello");
 	new->len = 5;
