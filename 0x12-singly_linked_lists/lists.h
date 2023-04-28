@@ -12,8 +12,13 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+<<<<<<< HEAD
  * for ALX project
 */
+=======
+ * for ALX project task
+ */
+>>>>>>> 9539037783a33999eedba78b7c94b6351a5830d3
 typedef struct list_s
 {
 	char *str;
